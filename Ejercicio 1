@@ -1,0 +1,15 @@
+package ejercicios;
+import java.util.ArrayList;
+
+public class Ejercicio1 {
+    public static void main(String[] args) {
+        ArrayList<String> companeros = new ArrayList<>();
+        companeros.add("Tipas");
+        companeros.add("Luis");
+        companeros.add("Cris");
+        companeros.add("Eduardo");
+        companeros.add("Pablo");
+        companeros.add("Jeronn");
+        for (String nombre : companeros) System.out.println(nombre);
+    }
+}
